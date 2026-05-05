@@ -23,7 +23,7 @@ public class UserRestController {
         return userDto;
     }
 
-    @GetMapping("/details")
+    @GetMapping("/detailsMap")
     public Map<String,Object> detailsMap() {
         User user = new User("Alejandro", "Galiano");
         Map<String,Object> body = new HashMap<>();
