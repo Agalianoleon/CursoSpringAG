@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
 import com.alejandro.curso.springboot.webapp.springboot_web.models.User;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 @Controller
