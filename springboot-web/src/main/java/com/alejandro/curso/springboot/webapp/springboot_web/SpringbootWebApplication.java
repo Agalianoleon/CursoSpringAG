@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+// se podria tener mas de uno con @propertysources 
+//@PropertySource("classpath:values.properties")
 public class SpringbootWebApplication {
 
 	public static void main(String[] args) {
